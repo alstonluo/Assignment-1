@@ -1,0 +1,62 @@
+/* style sheet for desktop view port */
+
+@charset "UTF-8";
+
+body {
+    background: yellow;
+    background: linear-gradient(to bottom, blue 77%, yellow 80%);
+}
+
+/* The wrapper ID style is used with a div tag to provide a 960px wide page */
+#wrapper {
+    width: 960px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(83, 156, 139);
+}
+
+video {
+    width: 400px;
+    padding: 15px;
+    margin: 15px;
+    background-color: black;
+    border: 2px white solid;
+    box-shadow: 10px 10px 5px black;
+}
+
+/* The right-column ID style is floated right */
+#right-column {
+    display: flex;
+    float: right;
+    width: 600px;
+    height: 600px;
+    background-color: LightGray;
+}
+
+/* The left-column ID style is floated left */
+#left-column {
+    float: left;
+    width: 360px;
+    background-color: silver;
+    height: 600px;
+}
+
+/* Defining a style for a set of tags separated by commas applies the style to
+all tags */
+h1, h2, h3, p, li {
+    margin-left: 15px;
+}
+
+#footer {
+    height: 80px;
+}
+
+#banner {
+    height: 120px;
+    background-color: SlateGrey;
+}
+
+#banner h1 {
+    color: white;
+}
