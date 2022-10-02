@@ -3,8 +3,8 @@
 @charset "UTF-8";
 
 body {
-    background: yellow;
-    background: linear-gradient(to bottom, blue 77%, yellow 80%);
+    background: linear-gradient(to bottom, #023059 77%, #A61B34 80%);
+    font-family: sans-serif, Arial, Helvetica;
 }
 
 /* The wrapper ID style is used with a div tag to provide a 960px wide page */
@@ -13,7 +13,24 @@ body {
     height: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(83, 156, 139);
+    background-color: #1B578C;
+}
+
+#banner {
+    height: 51px;
+    background-color: #023059;
+}
+
+#banner a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+#banner a.active {
+    background: #A61B34;
 }
 
 video {
@@ -50,13 +67,4 @@ h1, h2, h3, p, li {
 
 #footer {
     height: 80px;
-}
-
-#banner {
-    height: 120px;
-    background-color: SlateGrey;
-}
-
-#banner h1 {
-    color: white;
 }
