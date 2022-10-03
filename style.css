@@ -11,9 +11,8 @@ body {
 
 /* wrapper class style */
 #wrapper {
-    min-height: 800px;
     margin: auto 60px;
-    background-color: #1B578C;
+    /* background-color: #1B578C; */
 }
 
 /* header style */
@@ -43,18 +42,11 @@ body {
 
 }
 
-video {
-    width: 400px;
-    padding: 15px;
-    margin: 15px;
-    background-color: black;
-    border: 2px white solid;
-    box-shadow: 10px 10px 5px black;
-}
-
-#contact-form {
-
+#content-body {
+    background-color: #1B578C;
     display:block;
+    min-height: 800px;
+    border-radius: 16px;
 }
 
 /* Contact form style */
@@ -87,23 +79,6 @@ video {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-
-/* The right-column ID style is floated right */
-#right-column {
-    display: flex;
-    float: right;
-    width: 600px;
-    height: 600px;
-    background-color: LightGray;
-}
-
-/* The left-column ID style is floated left */
-#left-column {
-    float: left;
-    width: 360px;
-    background-color: silver;
-    height: 600px;
 }
 
 /* default margin for paragraph */
@@ -114,18 +89,17 @@ p {
     margin-left: 15px;
 }
 
-footer {
+#footer {
     display: inline-block;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0%;
 }
 
-.footer {
-    background-color: #A61B34;
+#footer {
     color: #C1D2D9;
 }
 
-.footer aside {
+#footer aside {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
