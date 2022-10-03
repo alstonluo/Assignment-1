@@ -25,7 +25,7 @@ body {
     display: inline-block;
     color: #96B9D9;
     text-align: center;
-    padding: 10px 18px;
+    padding: 18px 18px;
     margin: auto;
     text-decoration: none;
 }
@@ -33,6 +33,14 @@ body {
 #banner a.active {
     background: #A61B34;
     color: #C1D2D9;
+    border-radius: 6px;
+}
+
+#banner a img {
+    /* display: inline-block; */
+    border-radius: 28px;
+    margin: auto 10px;
+
 }
 
 video {
