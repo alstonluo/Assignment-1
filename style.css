@@ -9,12 +9,14 @@ body {
     font-family: sans-serif, Arial, Helvetica;
 }
 
+/* wrapper class style */
 #wrapper {
     min-height: 800px;
     margin: auto 60px;
     background-color: #1B578C;
 }
 
+/* header style */
 #banner {
     background-color: #023059;
 }
@@ -42,6 +44,43 @@ video {
     box-shadow: 10px 10px 5px black;
 }
 
+#contact-form {
+
+    display:block;
+}
+
+/* Contact form style */
+#contact-form input,
+#contact-form textarea {
+    width: 60%;
+    max-width: 600px;
+    padding: 12px 20px;
+    margin: 8px auto;
+    display: inline-block;
+    border: 1px solid #C1D2D9;
+    background-color: #96B9D9;
+    color: #023059;
+    border-radius: 6px;
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+    color: #d8dde0;
+    opacity: 1;
+    font-family: sans-serif, Arial, Helvetica
+}
+
+#contact-form input[type=submit] {
+    width: 60%;
+    background-color: #A61B34;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
 /* The right-column ID style is floated right */
 #right-column {
     display: flex;
@@ -59,9 +98,11 @@ video {
     height: 600px;
 }
 
-/* Defining a style for a set of tags separated by commas applies the style to
-all tags */
-h1, h2, h3, p, li {
+/* default margin for paragraph */
+h1,
+h2,
+h3,
+p {
     margin-left: 15px;
 }
 
@@ -72,7 +113,8 @@ footer {
 }
 
 .footer {
-    background-color: #A61B34
+    background-color: #A61B34;
+    color: #C1D2D9;
 }
 
 .footer aside {
