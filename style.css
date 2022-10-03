@@ -3,34 +3,34 @@
 @charset "UTF-8";
 
 body {
+    min-width: 600px;
+    margin: auto;
     background: linear-gradient(to bottom, #023059 77%, #A61B34 80%);
     font-family: sans-serif, Arial, Helvetica;
 }
 
-/* The wrapper ID style is used with a div tag to provide a 960px wide page */
 #wrapper {
-    width: 960px;
-    height: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    min-height: 800px;
+    margin: auto 60px;
     background-color: #1B578C;
 }
 
 #banner {
-    height: 51px;
     background-color: #023059;
 }
 
 #banner a {
     display: inline-block;
-    color: white;
+    color: #96B9D9;
     text-align: center;
-    padding: 14px 18px;
+    padding: 10px 18px;
+    margin: auto;
     text-decoration: none;
 }
 
 #banner a.active {
     background: #A61B34;
+    color: #C1D2D9;
 }
 
 video {
@@ -65,6 +65,18 @@ h1, h2, h3, p, li {
     margin-left: 15px;
 }
 
-#footer {
-    height: 80px;
+footer {
+    display: inline-block;
+    position: absolute;
+    bottom: 0%;
+}
+
+.footer {
+    background-color: #A61B34
+}
+
+.footer aside {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
