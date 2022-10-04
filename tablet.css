@@ -1,0 +1,26 @@
+/* style sheet for tablet view port */
+
+@charset "UTF-8";
+
+body {
+    min-width: 400px;
+    height: 100%;
+}
+
+#wrapper {
+    margin: auto 40px;
+}
+
+header {
+    text-align: center;
+}
+
+#banner a {
+    padding: 12px 12px;
+    border-radius: 10px;
+}
+
+#content-body {
+    min-height: 600px;
+    height: 800px;
+}

@@ -1,0 +1,26 @@
+/* style sheet for mobile view port */
+
+@charset "UTF-8";
+
+body {
+    min-width: 400px;
+    height: 100%;
+}
+
+#wrapper {
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+#banner a {
+    padding: 12px 11px;
+    border-radius: 10px;
+}
+
+#content-body {
+    min-height: 600px;
+    height: 800px;
+}

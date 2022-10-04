@@ -5,6 +5,7 @@
 body {
     min-width: 600px;
     margin: auto;
+    color: #e8e6e3;
     background: linear-gradient(to bottom, #023059 77%, #A61B34 80%);
     font-family: sans-serif, Arial, Helvetica;
 }
@@ -85,7 +86,7 @@ body {
 
 #contact-form input::placeholder,
 #contact-form textarea::placeholder {
-    color: #000000;
+    color: #023059;
     opacity: 1;
     font-size: small;
     font-family: sans-serif, Arial, Helvetica;
