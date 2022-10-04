@@ -62,8 +62,10 @@ body {
 
 /* about me paragraph style */
 .about-me {
+    display: inline-block;
     padding-right: 10%;
     padding-left: 10%;
+    max-width: 800px;
 }
 
 /* Contact form style */
