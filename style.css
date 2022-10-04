@@ -1,6 +1,6 @@
-/* style sheet for desktop view port */
-
 @charset "UTF-8";
+
+/* style sheet for desktop view port */
 
 body {
     min-width: 600px;
@@ -54,7 +54,6 @@ body {
 /* article body style */
 #content-body {
     background-color: #1B578C;
-    display:block;
     min-height: 800px;
     border-radius: 16px;
     text-align: center;
@@ -103,15 +102,31 @@ body {
     cursor: pointer;
 }
 
+/* project item style */
+.box-holder {
+    margin: auto;
+    width: 600px;
+}
+
+.box {
+    display: inline-table;
+    margin: 15px;
+    height: 250px;
+    width: 250px;
+    background-color: #C1D2D9;
+    color: #023059;
+    opacity: .5;
+}
+
+
+.box:hover {
+    background-color: white;
+    opacity: 1;
+}
+
 /* footer style */
 #footer {
     display: inline-block;
     bottom: 0%;
     color: #C1D2D9;
-}
-
-#footer aside {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
 }

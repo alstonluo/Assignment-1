@@ -1,6 +1,6 @@
-/* style sheet for mobile view port */
-
 @charset "UTF-8";
+
+/* style sheet for mobile view port */
 
 body {
     min-width: 400px;
@@ -23,6 +23,10 @@ header {
 #content-body {
     min-height: 600px;
     height: 800px;
+}
+
+.box-holder {
+    width: auto;
 }
 
 .about-me {
