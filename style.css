@@ -56,12 +56,18 @@ body {
     display:block;
     min-height: 800px;
     border-radius: 16px;
+    text-align: center;
+}
+
+/* about me paragraph style */
+.about-me {
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 /* Contact form style */
 #contact-form {
     text-align: center;
-    
 }
 
 #contact-form input,
