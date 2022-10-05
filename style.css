@@ -55,6 +55,7 @@ body {
 #content-body {
     background-color: #1B578C;
     min-height: 800px;
+    height: fit-content;
     border-radius: 16px;
     text-align: center;
 }
@@ -116,6 +117,10 @@ body {
     background-color: #C1D2D9;
     color: #023059;
     opacity: .5;
+}
+
+.box ol {
+    padding: 20px;
 }
 
 

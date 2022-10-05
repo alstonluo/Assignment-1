@@ -17,12 +17,12 @@ header {
 
 #banner a {
     padding: 12px 11px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 #content-body {
     min-height: 600px;
-    height: 800px;
+    height: fit-content;
 }
 
 .box-holder {

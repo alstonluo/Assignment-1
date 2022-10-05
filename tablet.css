@@ -3,7 +3,7 @@
 /* style sheet for tablet view port */
 
 body {
-    min-width: 400px;
+    min-width: 650px;
     height: 100%;
 }
 
@@ -17,17 +17,18 @@ header {
 
 #banner a {
     padding: 12px 12px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 #content-body {
     min-height: 600px;
-    height: 800px;
+    height: fit-content;
 }
 
 .box-holder {
     width: auto;
-    max-width: 600px;
+    margin: 0px auto;
+    padding: 30px;
 }
 
 .about-me {
