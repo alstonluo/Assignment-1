@@ -2,6 +2,9 @@
 
 ## Alston Luo's Portfolio website
 
+Hosted location: https://alstonluo.github.io/Assignment-1/
+
+
 Sources:
 
 https://vimeo.com/132701909 How we make video - explained in 60 seconds
